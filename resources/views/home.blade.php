@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+
+Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
